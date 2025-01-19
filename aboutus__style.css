@@ -119,3 +119,11 @@ section p {
 #story p {
     text-align: justify;
 }
+
+header span {
+    text-decoration: underline;
+}
+
+footer span {
+    text-decoration: underline;
+}
