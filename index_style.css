@@ -71,12 +71,19 @@ header nav a {
 #featured {
     text-align: center;
     padding: 30px;
+    margin: 30px auto;
+    max-width: 85%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px grey;
 }
 
 #featured h2 {
     font-size: 30px;
     margin-bottom: 25px;
     color: #6a4e42;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #6a4f4b;
 }
 
 #featured div {
@@ -137,4 +144,8 @@ footer button {
 
 footer button:hover {
     background-color: #806149;
+}
+
+header span {
+    text-decoration: underline;
 }
