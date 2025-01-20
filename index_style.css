@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f8f5f0;
+    color: #4b3832;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4b3832;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b98c69;
+    text-decoration: underline;
+}
+
+header {
+    background-color: #f3e5de;
+    color: #4b3832;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #4b3832;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav a {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#hero {
+    text-align: center;
+    padding: 30px;
+    box-shadow: inset 0 -5px 10px grey;
+}
+
+#hero h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #6a4e42;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+#featured {
+    text-align: center;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 85%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px grey;
+}
+
+#featured h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #6a4e42;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #6a4f4b;
+}
+
+#featured div {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+
+#featured img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px gray;
+}
+
+#featured p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #4b3832;
+}
+
+footer {
+    background-color: #f3e5de;
+    color: #4b3832;
+    padding: 30px;
+    text-align: center;
+    border-top: 2px solid #4b3832;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #4b3832;
+    font-weight: bold;
+}
+
+footer form {
+    margin-top: 15px;
+}
+
+footer input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #4b3832;
+    border-radius: 5px;
+}
+
+footer button {
+    padding: 9px 15px;
+    background-color: #9e836f;
+    color: #f8f5f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+footer button:hover {
+    background-color: #806149;
+}
+
+header span {
+    text-decoration: underline;
+}
