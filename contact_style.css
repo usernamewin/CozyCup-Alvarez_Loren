@@ -106,6 +106,10 @@ form input, form textarea, form button {
     border-radius: 5px;
 }
 
+form input, form textarea {
+    padding: 10px;
+}
+
 form button {
     padding: 10px 15px;
     max-width: 100%;
@@ -139,4 +143,8 @@ form button:hover {
 .gmap_iframe {
     height: 400px!important;
     border: none;
+}
+
+span {
+    text-decoration: underline;
 }
